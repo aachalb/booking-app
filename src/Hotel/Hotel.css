@@ -1,0 +1,110 @@
+.hocon{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.howrap{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    flex-direction: column;
+    gap: 10px;
+}
+.hotitle{
+    font-size: 28px;
+}
+.hoadd{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dist{
+    color: #0071c2;
+    font-weight: 500;
+}
+.imgwrap{
+    width: 33%;
+
+}
+.hoimg{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+.texts{
+    flex: 3;
+}
+.price{
+    flex: 1;
+    background-color: #ebf3ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.desc{
+    margin-top: 20px;
+    font-size: 14px;   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.price>h1{
+    font-size: 18px;
+    color: #555;
+}
+.but{
+    border: none;
+    padding: 10px 20px;
+    background-color:#0071c2;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.butt{
+    margin-left: 700px;
+    border: none;
+    padding: 10px 20px;
+    background-color:#0071c2;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    border-radius: 5px;
+}
+.slider{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 1000vw;
+    height: 100vh;
+    background-color:transparent;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+.slidwra{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+.sliderimg{
+    width: 100%;
+    height: 80vh;
+}

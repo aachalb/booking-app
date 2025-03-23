@@ -1,0 +1,12 @@
+.rat{
+    background-color: rgb(71, 66, 168);
+    color: white;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.con{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,97 @@
+.header{
+    background-color: #003580;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headercon{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+.headerlist{
+    display: flex;
+    gap: 40px;
+}
+.headerlistitem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerlistitem.active{
+   border: 1px solid white;
+   padding: 10px;
+   border-radius: 20px;
+}
+.headerdes{
+    border: 20px 0px;
+}
+
+.headerbnt{
+    background-color: #0071c2;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.headersearch{
+    height: 30px;
+    border: 3px solid rgb(215, 215, 164);
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;  
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute; 
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headericon{
+    color: rgb(0, 0, 0);
+}
+.headersearchitem{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.headersearchtext{
+    color: rgb(181, 178, 178);
+    cursor: pointer;
+}
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+.options{
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px;
+}
+
+.optionitem{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin: 10px;
+
+}
+.opco{
+    display: flex;
+    color: black;
+    gap: 10px;
+    font-size: 12px;
+    align-items: center;
+}

@@ -1,0 +1,31 @@
+.feature{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    z-index: 1;
+}
+.nam{
+    gap: 0px;
+    font-size: 25px;
+}
+.featureitem{
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.featureImg{
+   height: 250px;
+   width: 300px;
+}
+
+.featuretitle{
+    position:absolute;
+    bottom: 0px;
+    gap: 0px;
+    color: rgb(250, 251, 253);
+    left: 5px;
+}
